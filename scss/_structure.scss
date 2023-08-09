@@ -1,0 +1,73 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Monoton&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1{
+    color:red;
+    font-family: $font-monoton;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+    font-family: $font-monrope;
+  }
+  
+  body {
+    font-size: 18px;
+  }
+  .head{
+    position: relative;
+    height: 45vh;
+    background: rgb(1,22,39);
+    background: linear-gradient(90deg, rgba(1,22,39,1) 10%, rgba(79,57,62,1) 93%); 
+    h1{       
+            position: absolute;
+            top: 40%;
+            font-size: 4rem;
+            left: 39%;
+            .hero-title1{
+                position: absolute;
+                top:-50px;
+            }
+            .hero-title2 {
+                position: absolute;
+                top: 73%;
+                left: -3%;
+            }
+        
+    }
+    .menu{
+        background: rgb(1,22,39);
+        background: linear-gradient(90deg, rgba(1,22,39,1) 10%, rgba(79,57,62,1) 93%); 
+        display: flex;
+        justify-content: center;
+        .flex-menu{
+            
+            gap: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style-type: none;
+            li{
+                text-transform: capitalize;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: $aerospace-orange;
+            }
+        }
+    }
+}
+.main-container{
+    background: rgb(1,22,39);
+        background: linear-gradient(90deg, rgba(1,22,39,1) 10%, rgba(79,57,62,1) 93%); 
+}
+
+ 
